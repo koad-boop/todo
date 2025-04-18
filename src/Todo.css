@@ -1,0 +1,156 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+  }
+  
+  /* Heading */
+  header h1 {
+    color:purple;
+    text-shadow: 2px 2px 5px rgba(234, 0, 255, 0.5);
+    text-align: center;
+    padding: 20px;
+    font-size: 3rem; 
+  }
+  
+  /* DateTime */
+  .date-time {
+    color: rgb(216, 219, 11);
+    text-shadow: 1px 1px 4px rgba(246, 250, 0, 0.479);
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  /* Form Section */
+  .form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .form form {
+    border: 2px solid blue;
+    padding: 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.3);
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .todo-Input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 250px;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  /* Add Button */
+  .add-Btn {
+    padding: 10px 20px;
+    background-color: rgb(2, 3, 88);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px rgba(255, 192, 203, 0.5);
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.2s ease;
+  }
+  
+  .add-Btn:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Task List */
+  .taskList {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .todo-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid blue;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.05);
+    backdrop-filter: blur(5px);
+  }
+  
+  /* Task Text */
+  .checkList {
+    text-decoration: line-through;
+    color: gray;
+    flex: 1;
+  }
+  
+  .notCheckList {
+    flex: 1;
+  }
+  
+  /* Check Button */
+  .check-btn {
+    background-color: lightgreen;
+    border: none;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(144, 238, 144, 0.5);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .check-btn:hover {
+    background-color: #32cd32;
+  }
+  
+  /* Delete Button */
+  .dlt-btn {
+    background-color: pink;
+    border: none;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(255, 105, 180, 0.5);
+    cursor: pointer;
+  }
+  
+  .dlt-btn:hover {
+    background-color: hotpink;
+  }
+  
+  /* Clear All Button */
+  .clear-btn {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    background-color: rgb(223, 12, 47);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 2px 2px 8px rgba(255, 0, 0, 0.5);
+  }
+  
+  .clear-btn:hover {
+    background-color: darkred;
+  }
+  
